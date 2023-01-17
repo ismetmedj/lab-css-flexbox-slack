@@ -8,3 +8,366 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+* {
+    /* outline: 1px solid red;
+    box-sizing: border-box; */
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+
+button{
+    all: unset;
+}
+
+
+
+.menu {
+    display: none;
+} 
+
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background : #540B51;
+    height: 3rem;
+    padding: 1rem;
+}
+
+.nav-bar>div{
+    display: flex;
+}
+
+.buttons{
+    gap: 1rem;
+}
+
+.buttons>button, .buttons>button>img{
+    height:1.4rem;
+}
+
+.slack-logo{
+    height: 2rem;
+}
+
+h1{
+    background : #540B51;
+    color: white;
+    text-align: center;
+    font-size: 3.5rem;
+
+}
+
+header>div>p{
+    background : #540B51;
+    color: white;
+    text-align: center;
+
+}
+
+header>div>p>span{
+    color : #ECB12F;
+    
+}
+
+.signUp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background : #540B51;
+    gap: 1rem;
+    padding: 1rem;
+    align-items: stretch;
+
+}
+
+.google{
+    display: flex;
+    justify-content: space;
+
+    
+
+    
+}
+
+.signUpemail{
+    border: 1px solid #F3EAE2;
+    background-color: #F3EAE2;
+    text-transform: uppercase;
+    text-align: center;
+    color: #540B51;
+}
+
+.google>img{
+    height:2rem;
+    background-color: white;
+
+
+
+}
+
+.google {
+    /* border: 1px solid #4285F4; */
+    background-color: #4285F4;
+    text-transform: uppercase;
+    align-items: center;
+    padding: .25rem;
+}
+
+.google span{
+    width: 100%;
+    text-align: center;
+    }
+
+.hero-product img{
+    overflow: hidden;
+    max-width: 150%;
+    max-height: 130%;
+}
+
+.hero-product{
+    height: 20rem;
+}
+
+.main{
+    background-color: #F3EAE2;
+}
+
+.trusted-companies{
+    background-color: #F3EAE2;
+    font-size: 1.1rem;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    z-index:1;
+    position: relative;
+    padding: 1.5rem;
+
+
+}
+
+.image-companies>img{
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* flex-wrap: wrap; */
+    height: 2.8rem;
+    padding: .5rem;
+
+}
+
+h2{
+    background : #F3EAE2;
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    font-size: 2.4rem;
+    padding: 1rem;
+
+}
+
+.font-paragraph{
+    padding: 1rem;
+    line-height: 1.5rem;
+}
+
+.link{
+    padding: 1rem;
+    color: #2E71A6;
+    text-decoration: none;
+
+}
+
+.team{
+    background : white;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2.4rem;
+    padding: 1rem;
+}
+
+.stats>p{
+    background : white;
+    text-align: center;
+    font-size: 1.5rem;
+
+
+}
+
+.talk-meet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background : white;
+    gap: 1rem;
+    padding: 1rem;
+    align-items: stretch;
+    font-size: 1.5rem;
+
+}
+
+.talk{
+    border: 1px solid #540B51;
+    background-color: white;
+    text-transform: uppercase;
+    text-align: center;
+    color: #540B51;
+
+}
+
+.meet{
+    border: 1px solid #540B51;
+    background-color: #540B51;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+
+}
+
+#stats-numbers{
+    text-align: center;
+    background-color: white;
+    font-weight: bold;
+
+}
+
+#stats-numbers span{
+    color: #540B51;
+    font-size: 2rem;
+    padding: 2rem;
+    font-weight: bold;
+
+}
+
+#stats-numbers li :nth-child(2){
+    /* border: 1px solid red;
+    background-color: red; */
+    padding-top: .5rem;
+    padding-bottom: 1rem;
+}
+
+.digital{
+    background-color: #540B51;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    align-items: stretch;
+
+
+}
+
+
+.try{
+    border: 1px solid white;
+    background-color: white;
+    text-transform: uppercase;
+    text-align: center;
+    color: #540B51;
+
+}
+
+.talk2{
+    border: 1px solid white;
+    background-color: #540B51;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+
+}
+
+.endPage{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    
+}
+
+.whySlack{
+display: flex;
+flex-direction: column;
+list-style: none;
+
+
+
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    
+
+    
+}
+
+.pricing{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+
+
+}
+
+.company{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+
+
+}
+
+.endPage ul li{
+    padding: .5rem;
+}
+
+.endPage ul li:nth-child(1){
+    font-weight: bold;
+}
+
+.end-logo{
+    padding: 2rem;
+}
+
+.classic-list{
+padding: 1.5rem;
+list-style: none;
+
+}
+
+
+.classic-list li{
+    padding-bottom: 1rem;
+    font-weight: bold;
+
+}
+
+.classic-list li:nth-last-child(1){
+   color: #2E71A6;
+    
+}
+
+.socialMedia{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    list-style: none;
+
+}
+
+#copyright{
+    text-align: center;
+    padding: auto;
+    margin: 2rem;
+    color: #454245;
+}
